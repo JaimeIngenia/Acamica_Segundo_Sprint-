@@ -1,0 +1,143 @@
+.card{
+    width: 32%;
+    border: 1px solid gray;
+    height: 600px;
+    margin-bottom: 10px;
+}
+.titulo{
+    color:#77757a;
+    text-align: start;
+}
+.image
+{
+    width: 100%;
+}
+.opaco{
+    color: #67aad3;
+}
+.contenedor p{
+    color:#77757a;
+}
+.contenedor{
+    height: 85px; 
+    overflow-y:scroll ;
+    -webkit-box-shadow: 0px 5px 18px -5px #000000; 
+    box-shadow: 0px 5px 18px -5px #000000;
+} 
+.contenedor::-webkit-scrollbar{
+    width: 3px;   
+}
+.contenedor::-webkit-scrollbar-thumb{
+    background: #01d0b2;
+    border-radius: 5px;
+}
+
+.contenedorFecha{
+    background-color:#01d0b2 ;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 35px;
+    color: cornsilk;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 5px 18px -5px #000000; 
+    box-shadow: 0px 5px 18px -5px #000000;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+/*************Tamaño*************/
+.habitaciones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    -webkit-box-shadow: 0px 5px 18px -5px #000000; 
+    box-shadow: 0px 5px 18px -5px #000000;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.tamanio{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+.tamanioContenedorIcon{
+    width: 60px;
+    background:#239aee ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tamanioIcon{
+    color: white;
+}
+.text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.parrafo2{
+    padding-left: 5px;
+    color:#b2afb1;
+    margin-left: 20px;
+}
+.precio{
+    width: 50%;
+    background: #239aee;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boton{
+    width: 100%;
+    background: #01d0b2;
+    color: white;
+    height: 35px;
+    -webkit-box-shadow: 0px 5px 18px -5px #000000; 
+    box-shadow: 0px 5px 18px -5px #000000;
+}
+/************Tamaño*************/
+.ubicacion{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    /* border: solid 1px; */
+    -webkit-box-shadow: 0px 5px 18px -5px #000000; 
+    box-shadow: 0px 5px 18px -5px #000000;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.bed{
+    width: 60px;
+    background:#239aee ;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cama{
+    color: white;
+}
+.gps{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.gpsTitulo{
+    text-align: start;
+    padding-left: 25px;
+    color:#b2afb1
+}

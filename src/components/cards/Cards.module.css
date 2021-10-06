@@ -1,0 +1,15 @@
+.titulo
+{
+    color: green;
+}
+
+.main {
+    max-width: 1200px;
+    padding:  50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: auto;
+    
+}
